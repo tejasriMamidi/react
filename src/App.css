@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height:4em;
+    width:100%;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+Link{
+    text-decoration: none;
+    color:white;
+}
+.goodPost{
+    width:fit-content;
+    height:fit-content;
+    padding: 20px;
+    background-color: rgb(170, 163, 170);
+}
+.item1,.item2,.item3{
+    text-decoration: none;
+    color:white;
+}
