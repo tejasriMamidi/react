@@ -23,13 +23,13 @@ function App() {
 
       <Router>
         <ScrollToTop />
-      
+         
         <Layout>
           <Switch>
         <Route path="/"  component={Home} exact/>
             <Route path="/About" component={About} />
         <Route  path="/AddPosts"  component={AddPosts} />
-            
+              
           <Route path="/Posts" exact component={Posts} />
           <Route path="/Posts/:id"  component={PostItem}></Route>
           <Route path="*" component={ Error4}/>

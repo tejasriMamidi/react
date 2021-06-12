@@ -15,7 +15,8 @@ function AddPosts() {
     return (
         <React.Fragment>
             <div className="form">
-            <h1>Adding Post</h1>
+                <h1>Adding Post</h1>
+                <p>whole hoho</p>
             <form method="POST" onSubmit={ OnSubmitPost} >
             <label htmlFor="name"> Name </label>
              <input ref={Nameref} type="text"  id="name"/>
